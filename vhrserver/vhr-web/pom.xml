@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>vhrserver</artifactId>
+    <groupId>cn.sichu</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+
+  <groupId>cn.sichu</groupId>
+  <artifactId>vhr-web</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <name>vhr-web</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <java.version>1.8</java.version>
+  </properties>
+
+  <dependencies>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.oschina.zcx7878</groupId>
+            <artifactId>fastdfs-client-java</artifactId>
+            <version>1.27.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        
+        <!--MyBatis分页插件-->
+<!-- https://mvnrepository.com/artifact/com.github.pagehelper/pagehelper-spring-boot-starter -->
+<dependency>
+    <groupId>com.github.pagehelper</groupId>
+    <artifactId>pagehelper-spring-boot-starter</artifactId>
+    <version>1.2.10</version><!-- origin version:1.4.1 -->
+</dependency>
+        <!-- MyBatis 生成器 -->
+<!-- https://mvnrepository.com/artifact/org.mybatis.generator/mybatis-generator-core -->
+<dependency>
+    <groupId>org.mybatis.generator</groupId>
+    <artifactId>mybatis-generator-core</artifactId>
+    <version>1.4.1</version>
+</dependency>
+
+  </dependencies>
+
+  <build>
+  	<resources>
+  		<resource>
+  			<directory>src/main/resources</directory>
+  		</resource>
+  		
+  		<resource>
+  			<directory>src/main/java</directory>
+  			<includes>
+  				<include>**/*.xml</include>
+  			</includes>
+  		</resource>
+
+  	</resources>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+    </pluginManagement>
+  </build>
+</project>
