@@ -1,0 +1,16 @@
+cn\sichu\vhr\service\PoliticsstatusService.class
+cn\sichu\vhr\service\RoleService.class
+cn\sichu\vhr\service\DepartmentService.class
+cn\sichu\vhr\utils\POIUtils$1.class
+cn\sichu\vhr\service\HrService.class
+cn\sichu\vhr\service\MenuService.class
+cn\sichu\vhr\utils\POIUtils.class
+cn\sichu\vhr\utils\HrUtils.class
+cn\sichu\vhr\service\NationService.class
+cn\sichu\vhr\config\RabbitConfig.class
+cn\sichu\vhr\service\EmployeeService.class
+cn\sichu\vhr\service\JobLevelService.class
+cn\sichu\vhr\task\MailSendTask.class
+cn\sichu\vhr\service\PositionService.class
+cn\sichu\vhr\service\SalaryService.class
+cn\sichu\vhr\service\MailSendLogService.class

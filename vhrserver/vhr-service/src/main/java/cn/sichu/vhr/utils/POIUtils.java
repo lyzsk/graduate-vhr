@@ -45,17 +45,17 @@ public class POIUtils {
         // 文档类别
         docInfo.setCategory("员工信息");
         // 文档管理员
-        docInfo.setManager("javaboy");
+        docInfo.setManager("sichu");
         // 设置公司信息
-        docInfo.setCompany("www.javaboy.org");
+        docInfo.setCompany("www.sichu.cn");
         // 4. 获取文档摘要信息
         SummaryInformation summInfo = workbook.getSummaryInformation();
         // 文档标题
         summInfo.setTitle("员工信息表");
         // 文档作者
-        summInfo.setAuthor("javaboy");
+        summInfo.setAuthor("sichu");
         // 文档备注
-        summInfo.setComments("本文档由 javaboy 提供");
+        summInfo.setComments("本文档由 sichu 提供");
         // 5. 创建样式
         // 创建标题行的样式
         HSSFCellStyle headerStyle = workbook.createCellStyle();
@@ -211,7 +211,7 @@ public class POIUtils {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         HttpHeaders headers = new HttpHeaders();
         try {
-            headers.setContentDispositionFormData("attachment", new String("员工表.xls".getBytes("UTF-8"), "ISO-8859-1"));
+            headers.setContentDispositionFormData("attachment", new String("员工表.csv".getBytes("UTF-8"), "ISO-8859-1"));
             headers.setContentType(MediaType.APPLICATION_OCTET_STREAM);
             workbook.write(baos);
         } catch (IOException e) {

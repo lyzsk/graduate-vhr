@@ -10,7 +10,7 @@
     <result column="iconCls" property="iconCls" jdbcType="VARCHAR" />
     <result column="parentId" property="parentId" jdbcType="INTEGER" />
     <result column="enabled" property="enabled" jdbcType="BIT" />
-    <association property="meta" javaType="org.javaboy.vhr.model.Meta">
+    <association property="meta" javaType="cn.sichu.vhr.model.Meta">
       <result column="keepAlive" property="keepAlive" jdbcType="BIT" />
       <result column="requireAuth" property="requireAuth" jdbcType="BIT" />
     </association>
@@ -25,7 +25,7 @@
       <result column="iconCls2" property="iconCls" jdbcType="VARCHAR" />
       <result column="parentId2" property="parentId" jdbcType="INTEGER" />
       <result column="enabled2" property="enabled" jdbcType="BIT" />
-      <association property="meta" javaType="cn.sichu.vhr.web.mbg.model.Meta">
+      <association property="meta" javaType="cn.sichu.vhr.model.Meta">
         <result column="keepAlive2" property="keepAlive" jdbcType="BIT" />
         <result column="requireAuth2" property="requireAuth" jdbcType="BIT" />
       </association>

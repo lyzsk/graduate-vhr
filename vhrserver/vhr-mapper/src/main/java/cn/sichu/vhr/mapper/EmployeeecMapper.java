@@ -1,5 +1,7 @@
 package cn.sichu.vhr.mapper;
 
+import org.apache.ibatis.annotations.Mapper;
+
 import cn.sichu.vhr.model.Employeeec;
 
 /**
@@ -7,6 +9,7 @@ import cn.sichu.vhr.model.Employeeec;
  * @author sichu
  * @date 2022/05/12
  */
+@Mapper
 public interface EmployeeecMapper {
     int deleteByPrimaryKey(Integer id);
 

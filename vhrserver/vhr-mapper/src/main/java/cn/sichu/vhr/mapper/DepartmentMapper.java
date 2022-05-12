@@ -2,6 +2,8 @@ package cn.sichu.vhr.mapper;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Mapper;
+
 import cn.sichu.vhr.model.Department;
 
 /**
@@ -9,6 +11,7 @@ import cn.sichu.vhr.model.Department;
  * @author sichu
  * @date 2022/05/12
  */
+@Mapper
 public interface DepartmentMapper {
     int deleteByPrimaryKey(Integer id);
 

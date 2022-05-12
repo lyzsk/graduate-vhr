@@ -7,9 +7,8 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
 
-  <groupId>cn.sichu</groupId>
+
   <artifactId>vhr-mapper</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
 
   <name>vhr-mapper</name>
   <!-- FIXME change it to the project's website -->
