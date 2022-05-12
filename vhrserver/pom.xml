@@ -11,5 +11,6 @@
   <name>vhrserver</name>
   <modules>
     <module>vhr-web</module>
+    <module>vhr-service</module>
   </modules>
 </project>
