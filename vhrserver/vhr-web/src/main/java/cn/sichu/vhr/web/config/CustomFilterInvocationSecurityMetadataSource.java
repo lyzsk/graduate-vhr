@@ -11,9 +11,9 @@ import org.springframework.security.web.access.intercept.FilterInvocationSecurit
 import org.springframework.stereotype.Component;
 import org.springframework.util.AntPathMatcher;
 
-import cn.sichu.vhr.web.mbg.model.Menu;
-import cn.sichu.vhr.web.mbg.model.Role;
-import cn.sichu.vhr.web.service.MenuService;
+import cn.sichu.vhr.model.Menu;
+import cn.sichu.vhr.model.Role;
+import cn.sichu.vhr.service.MenuService;
 
 /**
  * 

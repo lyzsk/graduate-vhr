@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import cn.sichu.vhr.web.mbg.model.Hr;
-import cn.sichu.vhr.web.service.HrService;
+import cn.sichu.vhr.model.Hr;
+import cn.sichu.vhr.service.HrService;
 
 /**
  * 

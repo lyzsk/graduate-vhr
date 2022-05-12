@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import cn.sichu.vhr.web.mbg.model.Position;
-import cn.sichu.vhr.web.mbg.model.RespBean;
-import cn.sichu.vhr.web.service.PositionService;
+import cn.sichu.vhr.model.Position;
+import cn.sichu.vhr.model.RespBean;
+import cn.sichu.vhr.service.PositionService;
 
 /**
  * 

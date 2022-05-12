@@ -6,7 +6,7 @@ import java.sql.SQLIntegrityConstraintViolationException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import cn.sichu.vhr.web.mbg.model.RespBean;
+import cn.sichu.vhr.model.RespBean;
 
 /**
  * 

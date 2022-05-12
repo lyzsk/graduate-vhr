@@ -23,8 +23,8 @@ import org.thymeleaf.context.Context;
 
 import com.rabbitmq.client.Channel;
 
-import cn.sichu.vhr.web.mbg.model.Employee;
-import cn.sichu.vhr.web.mbg.model.MailConstants;
+import cn.sichu.vhr.model.Employee;
+import cn.sichu.vhr.model.MailConstants;
 
 /**
  * 

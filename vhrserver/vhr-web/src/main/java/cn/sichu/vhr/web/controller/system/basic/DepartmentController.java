@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import cn.sichu.vhr.web.mbg.model.Department;
-import cn.sichu.vhr.web.mbg.model.RespBean;
-import cn.sichu.vhr.web.service.DepartmentService;
+import cn.sichu.vhr.model.Department;
+import cn.sichu.vhr.model.RespBean;
+import cn.sichu.vhr.service.DepartmentService;
 
 /**
  * 

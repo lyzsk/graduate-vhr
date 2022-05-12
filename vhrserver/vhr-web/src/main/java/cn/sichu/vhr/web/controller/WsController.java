@@ -8,8 +8,8 @@ import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 
-import cn.sichu.vhr.web.mbg.model.ChatMsg;
-import cn.sichu.vhr.web.mbg.model.Hr;
+import cn.sichu.vhr.model.ChatMsg;
+import cn.sichu.vhr.model.Hr;
 
 /**
  * 

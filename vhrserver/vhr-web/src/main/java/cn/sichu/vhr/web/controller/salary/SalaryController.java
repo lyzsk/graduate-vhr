@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import cn.sichu.vhr.web.mbg.model.RespBean;
-import cn.sichu.vhr.web.mbg.model.Salary;
-import cn.sichu.vhr.web.service.SalaryService;
+import cn.sichu.vhr.model.RespBean;
+import cn.sichu.vhr.model.Salary;
+import cn.sichu.vhr.service.SalaryService;
 
 /**
  * 

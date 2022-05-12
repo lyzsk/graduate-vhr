@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import cn.sichu.vhr.web.mbg.model.MailConstants;
+import cn.sichu.vhr.model.MailConstants;
 
 /**
  * 

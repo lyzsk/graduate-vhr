@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AccountExpiredException;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.CredentialsExpiredException;
@@ -27,15 +28,21 @@ import org.springframework.security.web.session.ConcurrentSessionFilter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import cn.sichu.vhr.web.mbg.model.Hr;
-import cn.sichu.vhr.web.mbg.model.RespBean;
-import cn.sichu.vhr.web.service.HrService;
+import cn.sichu.vhr.model.Hr;
+import cn.sichu.vhr.model.RespBean;
+import cn.sichu.vhr.service.HrService;
 
 /**
  * 
  * @author sichu
  * @date 2022/05/12
  */
+/**
+ * 
+ * @author sichu
+ * @date 2022/05/12
+ */
+@Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     HrService hrService;

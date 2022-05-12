@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import cn.sichu.vhr.web.mbg.model.Menu;
-import cn.sichu.vhr.web.service.MenuService;
+import cn.sichu.vhr.model.Menu;
+import cn.sichu.vhr.service.MenuService;
 
 /**
  * 

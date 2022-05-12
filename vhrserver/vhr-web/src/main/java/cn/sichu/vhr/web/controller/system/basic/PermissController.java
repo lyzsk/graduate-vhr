@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import cn.sichu.vhr.web.mbg.model.Menu;
-import cn.sichu.vhr.web.mbg.model.RespBean;
-import cn.sichu.vhr.web.mbg.model.Role;
-import cn.sichu.vhr.web.service.MenuService;
-import cn.sichu.vhr.web.service.RoleService;
+import cn.sichu.vhr.model.Menu;
+import cn.sichu.vhr.model.RespBean;
+import cn.sichu.vhr.model.Role;
+import cn.sichu.vhr.service.MenuService;
+import cn.sichu.vhr.service.RoleService;
 
 /**
  * 

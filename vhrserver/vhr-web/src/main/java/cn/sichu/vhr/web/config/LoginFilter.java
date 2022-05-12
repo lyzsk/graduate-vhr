@@ -18,7 +18,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import cn.sichu.vhr.web.mbg.model.Hr;
+import cn.sichu.vhr.model.Hr;
 
 /**
  * 

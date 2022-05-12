@@ -10,8 +10,8 @@ import javax.servlet.http.HttpSession;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import cn.sichu.vhr.model.RespBean;
 import cn.sichu.vhr.web.config.VerificationCode;
-import cn.sichu.vhr.web.mbg.model.RespBean;
 
 /**
  * 

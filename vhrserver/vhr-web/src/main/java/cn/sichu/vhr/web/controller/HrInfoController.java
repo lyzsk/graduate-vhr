@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import cn.sichu.vhr.model.Hr;
+import cn.sichu.vhr.model.RespBean;
+import cn.sichu.vhr.service.HrService;
 import cn.sichu.vhr.web.config.FastDFSUtils;
-import cn.sichu.vhr.web.mbg.model.Hr;
-import cn.sichu.vhr.web.mbg.model.RespBean;
-import cn.sichu.vhr.web.service.HrService;
 
 /**
  * 

@@ -23,21 +23,21 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import cn.sichu.vhr.web.mbg.model.Department;
-import cn.sichu.vhr.web.mbg.model.Employee;
-import cn.sichu.vhr.web.mbg.model.JobLevel;
-import cn.sichu.vhr.web.mbg.model.Nation;
-import cn.sichu.vhr.web.mbg.model.Politicsstatus;
-import cn.sichu.vhr.web.mbg.model.Position;
-import cn.sichu.vhr.web.mbg.model.RespBean;
-import cn.sichu.vhr.web.mbg.model.RespPageBean;
-import cn.sichu.vhr.web.service.DepartmentService;
-import cn.sichu.vhr.web.service.EmployeeService;
-import cn.sichu.vhr.web.service.JobLevelService;
-import cn.sichu.vhr.web.service.NationService;
-import cn.sichu.vhr.web.service.PoliticsstatusService;
-import cn.sichu.vhr.web.service.PositionService;
-import cn.sichu.vhr.web.service.utils.POIUtils;
+import cn.sichu.vhr.model.Department;
+import cn.sichu.vhr.model.Employee;
+import cn.sichu.vhr.model.JobLevel;
+import cn.sichu.vhr.model.Nation;
+import cn.sichu.vhr.model.Politicsstatus;
+import cn.sichu.vhr.model.Position;
+import cn.sichu.vhr.model.RespBean;
+import cn.sichu.vhr.model.RespPageBean;
+import cn.sichu.vhr.service.DepartmentService;
+import cn.sichu.vhr.service.EmployeeService;
+import cn.sichu.vhr.service.JobLevelService;
+import cn.sichu.vhr.service.NationService;
+import cn.sichu.vhr.service.PoliticsstatusService;
+import cn.sichu.vhr.service.PositionService;
+import cn.sichu.vhr.utils.POIUtils;
 
 @RestController
 @RequestMapping("/employee/basic")
