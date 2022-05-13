@@ -1,6 +1,6 @@
 package cn.sichu.vhr.model;
 
-public class Empsalary {
+public class EmpSalary {
     private Integer id;
 
     private Integer eid;

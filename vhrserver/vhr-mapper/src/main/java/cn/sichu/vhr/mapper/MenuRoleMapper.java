@@ -1,6 +1,5 @@
 package cn.sichu.vhr.mapper;
 
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import cn.sichu.vhr.model.MenuRole;
@@ -10,7 +9,7 @@ import cn.sichu.vhr.model.MenuRole;
  * @author sichu
  * @date 2022/05/12
  */
-@Mapper
+// @Mapper
 public interface MenuRoleMapper {
     int deleteByPrimaryKey(Integer id);
 

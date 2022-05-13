@@ -7,7 +7,7 @@ import java.util.Date;
  * @author sichu
  * @date 2022/05/12
  */
-public class Msgcontent {
+public class MsgContent {
     private Integer id;
 
     private String title;

@@ -7,7 +7,7 @@ import java.util.Date;
  * @author sichu
  * @date 2022/05/12
  */
-public class Adjustsalary {
+public class AdjustSalary {
     private Integer id;
 
     private Integer eid;

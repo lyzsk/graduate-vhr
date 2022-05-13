@@ -2,7 +2,9 @@ cn\sichu\vhr\mapper\HrMapper.class
 cn\sichu\vhr\mapper\PoliticsstatusMapper.class
 cn\sichu\vhr\mapper\EmployeeecMapper.class
 cn\sichu\vhr\mapper\SalaryMapper.class
+cn\sichu\vhr\mapper\EmpSalaryMapper.class
 cn\sichu\vhr\mapper\AppraiseMapper.class
+cn\sichu\vhr\mapper\SysMsgMapper.class
 cn\sichu\vhr\mapper\PositionMapper.class
 cn\sichu\vhr\mapper\DepartmentMapper.class
 cn\sichu\vhr\mapper\MenuMapper.class
@@ -11,12 +13,10 @@ cn\sichu\vhr\mapper\MailSendLogMapper.class
 cn\sichu\vhr\mapper\EmployeetrainMapper.class
 cn\sichu\vhr\mapper\JobLevelMapper.class
 cn\sichu\vhr\mapper\NationMapper.class
+cn\sichu\vhr\mapper\AdjustSalaryMapper.class
 cn\sichu\vhr\mapper\EmployeeremoveMapper.class
-cn\sichu\vhr\mapper\EmpsalaryMapper.class
 cn\sichu\vhr\mapper\RoleMapper.class
-cn\sichu\vhr\mapper\SysmsgMapper.class
 cn\sichu\vhr\mapper\EmployeeMapper.class
-cn\sichu\vhr\mapper\MsgcontentMapper.class
-cn\sichu\vhr\mapper\AdjustsalaryMapper.class
-cn\sichu\vhr\mapper\OplogMapper.class
+cn\sichu\vhr\mapper\OpLogMapper.class
+cn\sichu\vhr\mapper\MsgContentMapper.class
 cn\sichu\vhr\mapper\MenuRoleMapper.class

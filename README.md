@@ -254,17 +254,29 @@ public class GlobalExceptionHandler {
 - [(Back to top)](#JAVA-vhr)
 
 # Dev Enviorment
-- JDK 1.8
-- SpringBoot 2.4.0
-- druid 1.1.10
-- mybatis 1.4.1
-- fastdfs-client-java 1.27.0.0
-- mysql 8.0.28
-- redis
-- node js 12.14.0
-- DBeaver
-- snipaste
-- screentogif
+- Backend:
+    - JDK 1.8
+    - SpringBoot 2.4.0
+    - druid 1.1.10
+    - mybatis 1.4.1
+    - fastdfs-client-java 1.27.0.0
+    - mysql 8.0.28
+    - redis
+    - RabbitMQ
+    - WebSocket
+    - DBeaver
+    - snipaste
+    - screentogif
+
+- Frontend:
+    - node js 12.14.0
+    - Vue
+    - ElementUI
+    - axios
+    - vue-router
+    - Vuex
+    - WebSocket
+    - vue-cli4
 - [(Back to top)](#JAVA-vhr)
 
 # How to use

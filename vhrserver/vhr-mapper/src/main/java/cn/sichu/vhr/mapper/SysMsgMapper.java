@@ -7,7 +7,7 @@ import cn.sichu.vhr.model.SysMsg;
  * @author sichu
  * @date 2022/05/12
  */
-public interface SysmsgMapper {
+public interface SysMsgMapper {
     int deleteByPrimaryKey(Integer id);
 
     int insert(SysMsg record);

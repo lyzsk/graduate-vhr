@@ -7,7 +7,7 @@ import cn.sichu.vhr.model.OpLog;
  * @author sichu
  * @date 2022/05/12
  */
-public interface OplogMapper {
+public interface OpLogMapper {
     int deleteByPrimaryKey(Integer id);
 
     int insert(OpLog record);

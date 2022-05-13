@@ -2,7 +2,6 @@ package cn.sichu.vhr.mapper;
 
 import java.util.List;
 
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import cn.sichu.vhr.model.Hr;
@@ -13,7 +12,7 @@ import cn.sichu.vhr.model.Role;
  * @author sichu
  * @date 2022/05/12
  */
-@Mapper
+// @Mapper
 public interface HrMapper {
     int deleteByPrimaryKey(Integer id);
 
