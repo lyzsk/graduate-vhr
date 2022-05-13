@@ -45,6 +45,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     CustomFilterInvocationSecurityMetadataSource customFilterInvocationSecurityMetadataSource;
     @Autowired
     CustomUrlDecisionManager customUrlDecisionManager;
+    // @Autowired
+    // VerificationCodeFilter verificationCodeFilter;
 
     @Bean
     PasswordEncoder passwordEncoder() {
@@ -111,6 +113,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        // // 添加规则
+        // http.addFilterBefore(verificationCodeFilter, UsernamePasswordAuthenticationFilter.class);
+
         http.authorizeRequests().withObjectPostProcessor(new ObjectPostProcessor<FilterSecurityInterceptor>() {
             @Override
             public <O extends FilterSecurityInterceptor> O postProcess(O object) {

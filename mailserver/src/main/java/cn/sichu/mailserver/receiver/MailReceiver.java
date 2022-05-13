@@ -73,7 +73,7 @@ public class MailReceiver {
             String mail = templateEngine.process("mail", context);
             helper.setText(mail, true);
             javaMailSender.send(msg);
-            redisTemplate.opsForHash().put("mail_log", msgId, "javaboy");
+            redisTemplate.opsForHash().put("mail_log", msgId, "sichu");
             channel.basicAck(tag, false);
             logger.info(msgId + ":邮件发送成功");
         } catch (MessagingException e) {

@@ -28,6 +28,7 @@ public class RabbitConfig {
     @Autowired
     MailSendLogService mailSendLogService;
 
+    @SuppressWarnings("deprecation")
     @Bean
     RabbitTemplate rabbitTemplate() {
         RabbitTemplate rabbitTemplate = new RabbitTemplate(cachingConnectionFactory);

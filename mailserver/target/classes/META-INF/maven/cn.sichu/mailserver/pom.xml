@@ -7,9 +7,9 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
 
-  <groupId>cn.sichu</groupId>
+
   <artifactId>mailserver</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+
 
   <name>mailserver</name>
   <!-- FIXME change it to the project's website -->
