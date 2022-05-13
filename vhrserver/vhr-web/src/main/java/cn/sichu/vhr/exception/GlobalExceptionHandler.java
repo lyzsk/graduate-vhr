@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import cn.sichu.vhr.model.RespBean;
 
 /**
+ * 要注册成Bean
  * 
  * @author sichu
  * @date 2022/05/12
